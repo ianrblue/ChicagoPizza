@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MMViewController : UIViewController
+@interface MMViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
 
 @end
